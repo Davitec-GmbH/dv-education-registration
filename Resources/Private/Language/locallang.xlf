@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_registration">
+        <header/><body>
+            <trans-unit id="plugin.registration.title"><source>Event Registration</source></trans-unit>
+            <trans-unit id="plugin.inquiry.title"><source>Inquiry Form</source></trans-unit>
+            <trans-unit id="registration.headline"><source>Register for Event</source></trans-unit>
+            <trans-unit id="registration.personal"><source>Personal Information</source></trans-unit>
+            <trans-unit id="registration.address"><source>Address</source></trans-unit>
+            <trans-unit id="registration.submit"><source>Register</source></trans-unit>
+            <trans-unit id="registration.acceptTerms"><source>I accept the</source></trans-unit>
+            <trans-unit id="registration.termsLink"><source>terms and conditions</source></trans-unit>
+            <trans-unit id="registration.success"><source>Your registration has been submitted. Please check your email for confirmation.</source></trans-unit>
+            <trans-unit id="registration.success.title"><source>Registration submitted</source></trans-unit>
+            <trans-unit id="registration.confirmed"><source>Your registration has been confirmed.</source></trans-unit>
+            <trans-unit id="registration.invalidHash"><source>Invalid or expired confirmation link.</source></trans-unit>
+            <trans-unit id="confirmation.headline"><source>Registration Confirmation</source></trans-unit>
+            <trans-unit id="inquiry.headline"><source>Inquiry</source></trans-unit>
+            <trans-unit id="inquiry.submit"><source>Submit Inquiry</source></trans-unit>
+            <trans-unit id="inquiry.success"><source>Your inquiry has been submitted. We will get back to you shortly.</source></trans-unit>
+            <trans-unit id="inquiry.success.title"><source>Inquiry submitted</source></trans-unit>
+            <trans-unit id="field.salutation"><source>Salutation</source></trans-unit>
+            <trans-unit id="field.firstName"><source>First Name</source></trans-unit>
+            <trans-unit id="field.lastName"><source>Last Name</source></trans-unit>
+            <trans-unit id="field.email"><source>Email</source></trans-unit>
+            <trans-unit id="field.phone"><source>Phone</source></trans-unit>
+            <trans-unit id="field.company"><source>Company</source></trans-unit>
+            <trans-unit id="field.address"><source>Address</source></trans-unit>
+            <trans-unit id="field.zipcode"><source>ZIP Code</source></trans-unit>
+            <trans-unit id="field.city"><source>City</source></trans-unit>
+            <trans-unit id="field.notes"><source>Notes</source></trans-unit>
+            <trans-unit id="field.requestType"><source>Request Type</source></trans-unit>
+            <trans-unit id="field.requestType.info"><source>Information material</source></trans-unit>
+            <trans-unit id="field.requestType.inhouse"><source>Inhouse training</source></trans-unit>
+            <trans-unit id="email.confirmation.subject"><source>Please confirm your registration</source></trans-unit>
+            <trans-unit id="email.confirmation.body"><source>Dear %s, please confirm your registration by clicking this link: %s</source></trans-unit>
+            <trans-unit id="email.admin.subject"><source>New event registration</source></trans-unit>
+            <trans-unit id="email.inquiry.subject"><source>New inquiry received</source></trans-unit>
+        </body>
+    </file>
+</xliff>

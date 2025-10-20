@@ -1,0 +1,47 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="content">
+    <h1><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:inquiry.headline" /></h1>
+    <f:flashMessages />
+
+    <f:form action="create" controller="Inquiry" pluginName="InquiryForm" method="post" objectName="inquiryRequest">
+        <fieldset>
+            <div class="form-group">
+                <label for="inq-salutation"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.salutation" /></label>
+                <f:form.textfield name="inquiryRequest[salutation]" id="inq-salutation" />
+            </div>
+            <div class="form-group">
+                <label for="inq-firstname"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.firstName" /> *</label>
+                <f:form.textfield name="inquiryRequest[firstName]" id="inq-firstname" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="inq-lastname"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.lastName" /> *</label>
+                <f:form.textfield name="inquiryRequest[lastName]" id="inq-lastname" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="inq-email"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.email" /> *</label>
+                <f:form.textfield name="inquiryRequest[email]" id="inq-email" type="email" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="inq-phone"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.phone" /></label>
+                <f:form.textfield name="inquiryRequest[phone]" id="inq-phone" type="tel" />
+            </div>
+            <div class="form-group">
+                <label for="inq-company"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.company" /></label>
+                <f:form.textfield name="inquiryRequest[company]" id="inq-company" />
+            </div>
+            <div class="form-group">
+                <label><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.requestType" /></label>
+                <label><f:form.radio name="inquiryRequest[requestType]" value="info" checked="true" /> <f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.requestType.info" /></label>
+                <label><f:form.radio name="inquiryRequest[requestType]" value="inhouse" /> <f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.requestType.inhouse" /></label>
+            </div>
+            <div class="form-group">
+                <label for="inq-notes"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.notes" /></label>
+                <f:form.textarea name="inquiryRequest[notes]" id="inq-notes" rows="4" />
+            </div>
+        </fieldset>
+
+        <f:form.submit value="{f:translate(key: 'LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:inquiry.submit')}" class="btn btn-primary" />
+    </f:form>
+</f:section>
+</html>

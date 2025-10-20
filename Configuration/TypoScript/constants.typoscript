@@ -1,0 +1,14 @@
+plugin.tx_dveducationregistration {
+    persistence {
+        # cat=plugin.tx_dveducationregistration/storage; type=int; label=Storage PID for registrations
+        storagePid =
+    }
+    settings {
+        # cat=plugin.tx_dveducationregistration/settings; type=string; label=Admin email for notifications
+        adminEmail =
+        # cat=plugin.tx_dveducationregistration/settings; type=int; label=Confirmation page UID
+        confirmationPid =
+        # cat=plugin.tx_dveducationregistration/settings; type=int; label=Terms and conditions page UID
+        termsPageUid =
+    }
+}

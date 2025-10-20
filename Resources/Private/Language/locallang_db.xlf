@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_registration">
+        <header/><body>
+            <trans-unit id="tx_dveducationregistration_domain_model_participant"><source>Participant</source></trans-unit>
+            <trans-unit id="tx_dveducationregistration_domain_model_inquiryrequest"><source>Inquiry Request</source></trans-unit>
+            <trans-unit id="tab.address"><source>Address</source></trans-unit>
+            <trans-unit id="tab.registration"><source>Registration</source></trans-unit>
+            <trans-unit id="field.salutation"><source>Salutation</source></trans-unit>
+            <trans-unit id="field.first_name"><source>First Name</source></trans-unit>
+            <trans-unit id="field.last_name"><source>Last Name</source></trans-unit>
+            <trans-unit id="field.email"><source>Email</source></trans-unit>
+            <trans-unit id="field.phone"><source>Phone</source></trans-unit>
+            <trans-unit id="field.company"><source>Company</source></trans-unit>
+            <trans-unit id="field.address"><source>Address</source></trans-unit>
+            <trans-unit id="field.city"><source>City</source></trans-unit>
+            <trans-unit id="field.zipcode"><source>ZIP Code</source></trans-unit>
+            <trans-unit id="field.notes"><source>Notes</source></trans-unit>
+            <trans-unit id="field.event_uid"><source>Event</source></trans-unit>
+            <trans-unit id="field.confirmation_hash"><source>Confirmation Hash</source></trans-unit>
+            <trans-unit id="field.confirmed"><source>Confirmed</source></trans-unit>
+            <trans-unit id="field.request_type"><source>Request Type</source></trans-unit>
+            <trans-unit id="field.course_uid"><source>Course</source></trans-unit>
+        </body>
+    </file>
+</xliff>

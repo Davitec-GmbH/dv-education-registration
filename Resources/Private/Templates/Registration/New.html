@@ -1,0 +1,68 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="content">
+    <h1><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:registration.headline" /></h1>
+    <f:flashMessages />
+
+    <f:form action="create" controller="Registration" pluginName="RegistrationForm" method="post" objectName="participant">
+        <f:form.hidden name="participant[eventUid]" value="{eventUid}" />
+
+        <fieldset>
+            <legend><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:registration.personal" /></legend>
+            <div class="form-group">
+                <label for="reg-salutation"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.salutation" /></label>
+                <f:form.textfield name="participant[salutation]" id="reg-salutation" />
+            </div>
+            <div class="form-group">
+                <label for="reg-firstname"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.firstName" /> *</label>
+                <f:form.textfield name="participant[firstName]" id="reg-firstname" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="reg-lastname"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.lastName" /> *</label>
+                <f:form.textfield name="participant[lastName]" id="reg-lastname" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="reg-email"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.email" /> *</label>
+                <f:form.textfield name="participant[email]" id="reg-email" type="email" required="required" />
+            </div>
+            <div class="form-group">
+                <label for="reg-phone"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.phone" /></label>
+                <f:form.textfield name="participant[phone]" id="reg-phone" type="tel" />
+            </div>
+            <div class="form-group">
+                <label for="reg-company"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.company" /></label>
+                <f:form.textfield name="participant[company]" id="reg-company" />
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:registration.address" /></legend>
+            <div class="form-group">
+                <label for="reg-address"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.address" /></label>
+                <f:form.textfield name="participant[address]" id="reg-address" />
+            </div>
+            <div class="form-group">
+                <label for="reg-zipcode"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.zipcode" /></label>
+                <f:form.textfield name="participant[zipcode]" id="reg-zipcode" />
+            </div>
+            <div class="form-group">
+                <label for="reg-city"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.city" /></label>
+                <f:form.textfield name="participant[city]" id="reg-city" />
+            </div>
+        </fieldset>
+
+        <div class="form-group">
+            <label for="reg-notes"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:field.notes" /></label>
+            <f:form.textarea name="participant[notes]" id="reg-notes" rows="3" />
+        </div>
+
+        <f:if condition="{termsPageUid}">
+            <div class="form-group">
+                <label><input type="checkbox" name="terms" required="required" /> <f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:registration.acceptTerms" /> <f:link.page pageUid="{termsPageUid}" target="_blank"><f:translate key="LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:registration.termsLink" /></f:link.page></label>
+            </div>
+        </f:if>
+
+        <f:form.submit value="{f:translate(key: 'LLL:EXT:dv_education_registration/Resources/Private/Language/locallang.xlf:registration.submit')}" class="btn btn-primary" />
+    </f:form>
+</f:section>
+</html>

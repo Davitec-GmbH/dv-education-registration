@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-03-31T00:00:00Z" product-name="dv_education_registration">
+        <header/><body>
+            <trans-unit id="plugin.registration.title"><source>Event Registration</source><target>Veranstaltungsanmeldung</target></trans-unit>
+            <trans-unit id="plugin.inquiry.title"><source>Inquiry Form</source><target>Anfrageformular</target></trans-unit>
+            <trans-unit id="registration.headline"><source>Register for Event</source><target>Zur Veranstaltung anmelden</target></trans-unit>
+            <trans-unit id="registration.personal"><source>Personal Information</source><target>Persönliche Daten</target></trans-unit>
+            <trans-unit id="registration.address"><source>Address</source><target>Adresse</target></trans-unit>
+            <trans-unit id="registration.submit"><source>Register</source><target>Anmelden</target></trans-unit>
+            <trans-unit id="registration.acceptTerms"><source>I accept the</source><target>Ich akzeptiere die</target></trans-unit>
+            <trans-unit id="registration.termsLink"><source>terms and conditions</source><target>Teilnahmebedingungen</target></trans-unit>
+            <trans-unit id="registration.success"><source>Your registration has been submitted. Please check your email for confirmation.</source><target>Ihre Anmeldung wurde eingereicht. Bitte prüfen Sie Ihre E-Mail zur Bestätigung.</target></trans-unit>
+            <trans-unit id="registration.success.title"><source>Registration submitted</source><target>Anmeldung eingereicht</target></trans-unit>
+            <trans-unit id="registration.confirmed"><source>Your registration has been confirmed.</source><target>Ihre Anmeldung wurde bestätigt.</target></trans-unit>
+            <trans-unit id="registration.invalidHash"><source>Invalid or expired confirmation link.</source><target>Ungültiger oder abgelaufener Bestätigungslink.</target></trans-unit>
+            <trans-unit id="confirmation.headline"><source>Registration Confirmation</source><target>Anmeldebestätigung</target></trans-unit>
+            <trans-unit id="inquiry.headline"><source>Inquiry</source><target>Anfrage</target></trans-unit>
+            <trans-unit id="inquiry.submit"><source>Submit Inquiry</source><target>Anfrage absenden</target></trans-unit>
+            <trans-unit id="inquiry.success"><source>Your inquiry has been submitted.</source><target>Ihre Anfrage wurde gesendet. Wir melden uns in Kürze bei Ihnen.</target></trans-unit>
+            <trans-unit id="inquiry.success.title"><source>Inquiry submitted</source><target>Anfrage gesendet</target></trans-unit>
+            <trans-unit id="field.salutation"><source>Salutation</source><target>Anrede</target></trans-unit>
+            <trans-unit id="field.firstName"><source>First Name</source><target>Vorname</target></trans-unit>
+            <trans-unit id="field.lastName"><source>Last Name</source><target>Nachname</target></trans-unit>
+            <trans-unit id="field.email"><source>Email</source><target>E-Mail</target></trans-unit>
+            <trans-unit id="field.phone"><source>Phone</source><target>Telefon</target></trans-unit>
+            <trans-unit id="field.company"><source>Company</source><target>Firma/Institution</target></trans-unit>
+            <trans-unit id="field.address"><source>Address</source><target>Adresse</target></trans-unit>
+            <trans-unit id="field.zipcode"><source>ZIP Code</source><target>PLZ</target></trans-unit>
+            <trans-unit id="field.city"><source>City</source><target>Stadt</target></trans-unit>
+            <trans-unit id="field.notes"><source>Notes</source><target>Anmerkungen</target></trans-unit>
+            <trans-unit id="field.requestType"><source>Request Type</source><target>Art der Anfrage</target></trans-unit>
+            <trans-unit id="field.requestType.info"><source>Information material</source><target>Informationsmaterial</target></trans-unit>
+            <trans-unit id="field.requestType.inhouse"><source>Inhouse training</source><target>Inhouse-Schulung</target></trans-unit>
+            <trans-unit id="email.confirmation.subject"><source>Please confirm your registration</source><target>Bitte bestätigen Sie Ihre Anmeldung</target></trans-unit>
+            <trans-unit id="email.admin.subject"><source>New event registration</source><target>Neue Veranstaltungsanmeldung</target></trans-unit>
+            <trans-unit id="email.inquiry.subject"><source>New inquiry received</source><target>Neue Anfrage eingegangen</target></trans-unit>
+        </body>
+    </file>
+</xliff>
