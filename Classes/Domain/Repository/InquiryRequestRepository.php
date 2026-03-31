@@ -10,7 +10,7 @@ use TYPO3\CMS\Extbase\Persistence\Repository;
 
 class InquiryRequestRepository extends Repository
 {
-    protected array $defaultOrderings = [
+    protected $defaultOrderings = [
         'crdate' => QueryInterface::ORDER_DESCENDING,
     ];
 
