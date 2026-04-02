@@ -3,7 +3,12 @@
     "type": "typo3-cms-extension",
     "description": "Online registration for education courses. Participant sign-up with PDF confirmation, email notifications, and inquiry forms.",
     "license": "GPL-2.0-or-later",
-    "authors": [{"name": "Davitec GmbH, +Pluswerk Standort Dresden", "email": "devops@davitec.de"}],
+    "authors": [
+        {
+            "name": "Davitec GmbH, +Pluswerk Standort Dresden",
+            "email": "devops@davitec.de"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "typo3/cms-core": "^12.4 || ^13.4",
@@ -16,9 +21,16 @@
         "typo3/testing-framework": "^8.0 || ^9.0"
     },
     "autoload": {
-        "psr-4": {"Davitec\\DvEducationRegistration\\": "Classes/"}
+        "psr-4": {
+            "Davitec\\DvEducationRegistration\\": "Classes/"
+        }
     },
     "extra": {
-        "typo3/cms": {"extension-key": "dv_education_registration"}
+        "typo3/cms": {
+            "extension-key": "dv_education_registration"
+        }
+    },
+    "support": {
+        "docs": "https://docs.typo3.org/p/davitec/dv-education-registration/main/en-us/Index.html"
     }
 }
