@@ -11,7 +11,7 @@ Introduction
 What does it do?
 ================
 
-The extension **Education Registration** (|extension_key|) provides online
+The extension **Education Registration** (``dv_education_registration``) provides online
 registration for courses and events managed by the companion extension
 ``dv_education_courses``. Visitors can sign up for scheduled events directly
 on the website. A double opt-in email confirmation workflow ensures that

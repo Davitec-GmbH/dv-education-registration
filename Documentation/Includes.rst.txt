@@ -1,6 +1,3 @@
 .. This file is included by all other RST files.
    It contains common substitutions.
 
-.. |extension_key| replace:: dv_education_registration
-.. |extension_name| replace:: Education Registration
-.. |composer_name| replace:: davitec/dv-education-registration

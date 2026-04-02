@@ -11,7 +11,7 @@ Education Registration
    davitec/dv-education-registration
 
 :Version:
-   |release|
+   1.0.3
 
 :Language:
    en
@@ -23,8 +23,6 @@ Education Registration
    This document is published under the
    `GNU General Public License v2.0 or later <https://www.gnu.org/licenses/old-licenses/gpl-2.0.html>`__
 
-:Rendered:
-   |today|
 
 ----
 
